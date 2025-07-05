@@ -76,8 +76,8 @@ add_shortcode('mpay_unlock', function($atts, $content = null) {
         <?php if (!$unlocked): ?>
             <div style="border:1px solid #ccc;padding:15px;background:#fff9f9;">
                 <p><strong>✨ 限时活动特价 <?php echo esc_html($atts['price']); ?> 元！</strong></p>
-                <a href="<?php echo esc_url($alipay_url); ?>" target="_blank"><img src="/wp-content/plugins/mpay-content-unlocker/img/alipay.jpg" width="160"></a>
-                <a href="<?php echo esc_url($wxpay_url); ?>" target="_blank"><img src="/wp-content/plugins/mpay-content-unlocker/img/wxpay.jpg" width="160"></a>
+                <a href="<?php echo esc_url($alipay_url); ?>" target="_blank"><img src="/wp-content/plugins/mpay-content-unlocker-vip/img/alipay.jpg" width="160"></a>
+                <a href="<?php echo esc_url($wxpay_url); ?>" target="_blank"><img src="/wp-content/plugins/mpay-content-unlocker-vip/img/wxpay.jpg" width="160"></a>
                 <p style="font-size:13px;color:#888;margin-top:10px;">📌 支付完成后自动开通会员并跳转会员页面</p>
                 <script>
 function triggerB2Chat(){
